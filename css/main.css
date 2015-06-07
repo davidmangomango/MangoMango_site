@@ -128,6 +128,10 @@ p {
     height: 30px;
     font-size: .7em;
     vertical-align: middle;
+    position:fixed;
+    bottom:0;
+    left:0;
+    width: 100%;
 }
 
 #header {
@@ -238,8 +242,17 @@ p {
    Modify as content requires.
    ========================================================================== */
 
-@media only screen and (min-width: 35em) {
-    /* Style adjustments for viewports that meet the condition */
+@media only screen and (max-width: 767px) {
+    /* Style adjustments for mobiles */
+    
+    IMG.centered-logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    width=80%;
+}
 }
 
 @media print,
