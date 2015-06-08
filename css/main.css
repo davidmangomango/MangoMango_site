@@ -309,6 +309,7 @@ input[type="button"].button-primary:focus {
    Modify as content requires.
    ========================================================================== */
 
+
 @media only screen and (max-width: 767px) {
     /* Style adjustments for mobiles */
     
@@ -318,7 +319,7 @@ input[type="button"].button-primary:focus {
     margin-right: auto;
     padding-top: 20px;
     padding-bottom: 40px;
-    width=80%;
+    max-width:70%;
 }
 }
 
