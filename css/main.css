@@ -100,6 +100,10 @@ body {
     background-color: #f4f4f4;
 }
 
+a {
+    color: #fff;
+}
+
 IMG.centered-icons {
     display: block;
     margin-left: auto;
